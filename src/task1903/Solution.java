@@ -1,4 +1,4 @@
-package com.javarush.task.task19.task1903;
+package task1903;
 
 import java.util.HashMap;
 import java.util.Map;

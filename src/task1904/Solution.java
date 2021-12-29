@@ -1,10 +1,13 @@
-package com.javarush.task.task19.task1904;
+package task1904;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
 
 /* 
 И еще один адаптер
@@ -13,7 +16,11 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) throws IOException, ParseException {
-
+        String fileName = "/home/masha/Desktop/txt.txt";
+        Path path = Paths.get(fileName);
+        Scanner scanner = new Scanner(path);
+        PersonScannerAdapter psa = new PersonScannerAdapter(scanner);
+        System.out.println(psa.read());
 
 
     }

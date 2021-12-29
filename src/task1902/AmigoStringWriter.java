@@ -1,4 +1,4 @@
-package com.javarush.task.task19.task1902;
+package task1902;
 
 import java.io.IOException;
 
