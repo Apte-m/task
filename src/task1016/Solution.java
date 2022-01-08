@@ -1,4 +1,4 @@
-package com.javarush.task.task10.task1016;
+package task1016;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

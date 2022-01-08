@@ -1,4 +1,4 @@
-package com.javarush.task.task09.task0929;
+package task0929;
 
 import java.io.*;
 

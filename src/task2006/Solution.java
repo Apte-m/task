@@ -1,4 +1,4 @@
-package com.javarush.task.task20.task2006;
+package task2006;
 
 import java.io.Serializable;
 import java.util.ArrayList;

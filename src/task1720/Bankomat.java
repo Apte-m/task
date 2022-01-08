@@ -1,4 +1,4 @@
-package com.javarush.task.task17.task1720;
+package task1720;
 
 public class Bankomat {
 

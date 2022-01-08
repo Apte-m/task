@@ -1,7 +1,6 @@
-package com.javarush.task.task08.task0824;
+package task0824;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 

@@ -1,11 +1,8 @@
-package com.javarush.task.task08.task0826;
+package task0826;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.*;
-import java.util.stream.Collectors;
-
-import static java.util.stream.Collectors.*;
+import java.util.Arrays;
 
 /* 
 Пять победителей

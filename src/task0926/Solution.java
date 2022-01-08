@@ -1,4 +1,4 @@
-package com.javarush.task.task09.task0926;
+package task0926;
 
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.javarush.task.task16.task1628;
+package task1628;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -63,9 +63,11 @@ public class Solution {
         public void run() {
                  while (!Thread.currentThread().isInterrupted()){
                      try {
-                         if (reader.ready()){
-                             result.add(reader.readLine());
-                             readStringCount.incrementAndGet();
+                         synchronized (reader) {
+                             if (reader.ready()) {
+                                 result.add(reader.readLine());
+                                 readStringCount.incrementAndGet();
+                             }
                          }
                      } catch (IOException e) {
                          e.printStackTrace();

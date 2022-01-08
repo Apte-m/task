@@ -1,12 +1,9 @@
-package com.javarush.task.task08.task0828;
+package task0828;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.MalformedParameterizedTypeException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /* 

@@ -1,4 +1,4 @@
-package com.javarush.task.task21.task2107;
+package task2107;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

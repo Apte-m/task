@@ -1,6 +1,5 @@
-package com.javarush.task.task21.task2112;
+package task2112;
 
-import java.io.Closeable;
 import java.io.IOException;
 
 public class FakeConnection implements AutoCloseable {

@@ -1,4 +1,4 @@
-package com.javarush.task.task21.task2110;
+package task2110;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
