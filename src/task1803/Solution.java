@@ -22,6 +22,7 @@ public class Solution {
             while ((b = fileInputStream.read()) != -1) {
                 list.add((byte) b);
                 map.put(Collections.frequency(list, (byte) b), (byte) b);
+                //map.put((byte) b, map.getOrDefault((byte)b,0) +1);
 
             }
 
