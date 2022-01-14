@@ -1,7 +1,7 @@
-package com.javarush.task.task18.task1809;
+package task1809;
 
 import java.io.*;
-import java.util.*;
+import java.util.Stack;
 
 /* 
 Реверс файла
