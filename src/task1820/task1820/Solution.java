@@ -1,4 +1,4 @@
-package com.javarush.task.task18.task1820;
+package task1820.task1820;
 
 import java.io.*;
 
