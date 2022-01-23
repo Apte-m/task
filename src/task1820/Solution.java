@@ -32,7 +32,6 @@ public class Solution {
 
                 integers.addAll(Arrays.asList(new BigDecimal(Double.parseDouble(s)).setScale(0, RoundingMode.HALF_UP)));
             }
-            System.out.println(integers);
             integers.forEach(s -> {
                 try {
                     fileWriter.write((s + " "));
