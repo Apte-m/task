@@ -1,4 +1,4 @@
-package com.javarush.task.task22.task2210;
+package task2210;
 
 import java.util.Arrays;
 import java.util.StringTokenizer;
