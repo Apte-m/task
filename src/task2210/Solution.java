@@ -17,7 +17,7 @@ public class Solution {
         StringTokenizer tokenizer = new StringTokenizer(query, delimiter);
         String[] result = new String[tokenizer.countTokens()];
         while (tokenizer.hasMoreTokens()) {
-            result[(tokenizer.countTokens() * -1) + 3] = String.format("%s", tokenizer.nextToken());
+            result[(tokenizer.countTokens() * -1) + result.length] = String.format("%s", tokenizer.nextToken());
 
         }
 
