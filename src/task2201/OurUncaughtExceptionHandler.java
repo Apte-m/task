@@ -1,4 +1,4 @@
-package com.javarush.task.task22.task2201;
+package task2201;
 
 public class OurUncaughtExceptionHandler implements Thread.UncaughtExceptionHandler {
     @Override

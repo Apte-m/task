@@ -1,4 +1,4 @@
-package com.javarush.task.task22.task2201;
+package task2201;
 
 /* 
 Строки нитей или строковые нити? Вот в чем вопрос
