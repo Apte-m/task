@@ -1,4 +1,4 @@
-package com.javarush.task.task16.task1630;
+package task1630;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
