@@ -5,16 +5,15 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Human {
+public class Human implements Alive {
     private List<Human> children = new ArrayList<>();
 
     public static int nextId = 0;
     private int id;
     protected int age;
     protected String name;
-    protected int course;
-    protected int[] size;
 
+    protected int[] size;
 
 
     public static final int FIRST = 1;
@@ -32,7 +31,7 @@ public class Human {
         return bloodGroup;
     }
 
-    public Human(String name ,int age) {
+    public Human(String name, int age) {
         this.name = name;
         this.age = age;
         this.id = nextId;
@@ -44,10 +43,10 @@ public class Human {
     }
 
     public void removeChild(Human children) {
-            this.children.remove(children);
+        this.children.remove(children);
     }
 
-    public  List<Human> getChildren() {
+    public List<Human> getChildren() {
         return Collections.unmodifiableList(children);
     }
 
@@ -68,10 +67,6 @@ public class Human {
         this.name = name;
     }
 
-    public int getCourse() {
-        return course;
-    }
-
 
     public int getId() {
         return id;
@@ -83,5 +78,10 @@ public class Human {
 
     public void printSize() {
         System.out.println("Рост: " + size[0] + " Вес: " + size[1]);
+    }
+
+    @Override
+    public void live() {
+
     }
 }
