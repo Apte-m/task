@@ -1,12 +1,12 @@
 package com.javarush.task.task29.task2909.human;
 
 public class Worker {
-    private Human human;
+    private Soldier human;
     private double salary;
     public String company;
 
     public Worker(String name, int age) {
-        human = new Human(false);
+        human = new Soldier(name,age);
     }
 
     public void live() {
